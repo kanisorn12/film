@@ -1,0 +1,90 @@
+body{
+    font-family: "promt";
+    background-color: rgb(255, 137, 137);
+    margin: 0;
+    padding: 0;
+}
+.contarct-container{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    
+}
+.info-fow{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.info-fow strong{
+    display: inline-block;
+    width: 120px;
+    color: #ff5b5b;
+}
+
+nav{
+    background-color: rgb(192, 124, 255);
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;   
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.profile-card{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+    
+}
+
+.profile-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
